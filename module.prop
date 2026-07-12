@@ -1,0 +1,6 @@
+id=exynos990_powersave
+name=Exynos 990 PowerSave
+version=v1.0
+versionCode=1
+author=真島吾朗 (Majima)
+description=Adjusts the CPU clock when the Power Saving Mode is changed.
