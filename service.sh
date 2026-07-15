@@ -34,6 +34,7 @@ DEFAULT_MAX_MID=$(get_max_supported_freq "$CLUSTER_MID")
 DEFAULT_MAX_BIG=$(get_max_supported_freq "$CLUSTER_BIG")
 
 # Define the maximum frequencies for each cluster when in power saving mode
+# Set the values ​​in Hz, example: "1300000" is 1.3GHZ.
 PS_MAX_LITTLE=1300000  # Limita o LITTLE a 1.3 GHz
 PS_MAX_MID=1508000     # Limita o MID a 1.508 GHz
 PS_MAX_BIG=1690000     # Limita o BIG a 1.690 GHz
